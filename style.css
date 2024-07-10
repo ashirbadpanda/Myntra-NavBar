@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    height: 80px;
+    width: 100%;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    box-shadow: 8px 3px 8px #d1d5e5;
+}
+
+nav>article{
+    height: 100%;
+    width: 92%;
+    background-color: blue;
+    display: flex;
+}
+
+nav>article>.logo{
+    background-color: #FFFFFF;
+    height: 100%;
+    width: 10%;
+    display: flex;
+    align-items: center
+}
+
+nav>article>.logo>img{
+    height: 43px;
+    width: 64px;
+}
+
+nav>article>.shop{
+    height: 100%;
+    width: 40%;
+    background-color: #FFFFFF;
+}
+
+nav>article>.shop>ol{
+    background-color: #FFFFFF;
+    height: 100%;
+    width: 84%;
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav>article>.shop>ol>li>a{
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+    font-size: 13px;
+    font-family: Assistant, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+
+nav>article>.search{
+    height: 100%;
+    width: 40%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+}
+
+nav>article>.search>.iconsearch{
+    height: 60%;
+    width: 100%;
+    background-color: black;
+    display: flex;
+}
+
+nav>article>.search>.iconsearch>.ico{
+    height: 100%;
+    width: 10%;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F5F5F6;
+}
+
+nav>article>.search>.iconsearch>.ico>img{
+    width: 31%;
+}
+
+nav>article>.search>.iconsearch>.blank{
+    height: 100%;
+    width: 90%;
+    background-color:#F5F5F6 ;
+    display: flex;
+    align-items: center;
+
+}
+
+nav>article>.search>.iconsearch>.blank>input[type="text"]{
+    word-spacing: 0px;
+    height: 37%;
+    width: 50%;
+    border-color: #F5F5F6;
+    border: none;
+    background-color: #F5F5F6;
+}
+
+nav>article>.profile{
+    height: 100%;
+    width: 20%;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+}
+
+nav>article>.profile>.prof{
+    height: 80%;
+    width: 25%;
+    background-color: #FFFFFF;
+    position: relative;
+    padding: 22px;
+}
+
+nav>article>.profile>.prof>.u1>img{
+    height: 100%;
+    width: 100%;
+}
+
+nav>article>.profile>.wish{
+    height: 80%;
+    width: 25%;
+    background-color: #FFFFFF;
+    position: relative;
+    padding: 22px;
+}
+
+nav>article>.profile>.wish>.u2>img{
+    height: 100%;
+    width: 100%;
+}
+
+nav>article>.profile>.cart{
+    height: 80%;
+    width: 25%;
+    background-color: #FFFFFF;
+    position: relative;
+    padding: 22px;
+}
+
+nav>article>.profile>.cart>.u3>img{
+    height: 100%;
+    width: 100%;
+}
